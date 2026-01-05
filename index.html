@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilshan Wickramasinghe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./dp.png"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      async
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script async src="script.js"></script>
+  </head>
+  <body>
+    <heaader class="header">
+      <a href="#home" class="logo">Mr. <span>Dilshan</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#websites">Websites</a>
+        <a href="#testimonials">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </heaader>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Dilshan Wickramasinghe</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          Hello! I am an Industrial Information Technology undergraduate at Uva Wellassa University of Sri Lanka. I enjoy solving challenging problems by finding creative and practical solutions. I am passionate about learning new technologies and gaining hands-on experience through projects. I work well in team environments, adapt quickly to new situations and always aim to deliver meaningful and effective results.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/dilshan-wick" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Dilshan-Wickramasinghe" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://x.com/dilshan_995?s=21" target="_blank"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="./assets/Dilshan_CV.pdf" target="_blank" class="btn">Hire Me</a>
+          <a href="mailto:dilshanwickramasinghe007@gmail.com" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="./dp.png" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2006 - 2016</div>
+          <div class="timeline-content">
+            <h3>Primary Education</h3>
+            <p>
+              C.W.W.Kannangara National School<br/>
+G.C.E (Ordinary Level) Examination with ICT<br/>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2017 - 2019</div>
+          <div class="timeline-content">
+            <h3>Secondary Education</h3>
+            <p>
+              C.W.W.Kannangara National School<br/>
+G.C.E (Advance Level) Examination Art Stream with ICT<br/>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 - 2022</div>
+          <div class="timeline-content">
+            <h3>Foundation</h3>
+            <p>
+              The Open University of Sri Lanka<br/>
+(BSE Hons) Bachelor of Software Engineering <br/>
+<b>Discontinued with 1st Semester</b>
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 - Present</div>
+          <div class="timeline-content">
+            <h3>University</h3>
+            <p>
+              Uva Wellassa University of Sri Lanka<br/>
+Bachelor of Science (BSc) in Industrial Information Technology<br/>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Web Development</h4>
+            <p>
+             I build modern, responsive web applications using front-end and back-end technologies such as
+  HTML, CSS, JavaScript, Bootstrap, React.js, PHP, Java and ASP.NET MVC (.NET). I create secure,
+  user-focused systems with SQL databases, following MVC architecture for clean and scalable
+  solutions.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>UI / UX Design</h4>
+            <p>
+              I design simple and user-friendly interfaces for websites and applications. I focus on clean layouts,
+  easy navigation and clear visual structure to improve the user experience. I use tools like Figma to
+  create wireframes and basic designs while following UI/UX principles to ensure designs are practical,
+  visually appealing and easy to use.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="websites" id="websites">
+      <div class="websites-box">
+        <h2 class="heading"><span>MY</span> Websites</h2>
+        <div class="websites-wrapper" id="websitesList">
+          <script>
+            // Array of website details
+            const websites = [
+              { name: "ToDoApplication", img: "./todo.png", url: "https://dilshan-wickramasinghe.github.io/ToDoApplication/" },
+              { name: "Text-To-Voice-Converter", img: "./txt.png", url: "https://dilshan-wickramasinghe.github.io/Text-To-Voice-Converter/" },
+              { name: "Calculator-Application", img: "./cal.png", url: "https://dilshan-wickramasinghe.github.io/Calculator-Application/" },
+              { name: "Expense-Tracker-Application", img: "./exp.png", url: "https://dilshan-wickramasinghe.github.io/Expense-Tracker-Application/" },
+              { name: "Tic-Tac-Toe-Game", img: "./tiktc.png", url: "https://dilshan-wickramasinghe.github.io/Tic-Tac-Toe-Game/" },
+              { name: "ASP.NET Core MVC Blog Application", img: "./dev.png", url: "" },
+              { name: "Pharmacy Management System", img: "./phr.jpg", url: "" },
+              { name: "Music Streaming Desktop Application", img: "./music.jpg", url: "" },
+              { name: "Solid Waste Management Teaching Game for Students (AR)", img: "./bin.jpg", url: "" }
+
+            ];
+          
+            // Generate and insert website items dynamically
+            document.getElementById("websitesList").innerHTML = websites
+              .map(website => `
+                <div class="website-item">
+                  <a href="${website.url}" target="_blank">
+                    <img src="${website.img}" alt="${website.name}" />
+                    <h2>${website.name}</h2>
+                  </a>
+                </div>
+              `)
+              .join("");
+          </script>    
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-box">
+        <h2 class="heading">Skills</h2>
+    
+        <div class="websites-wrapper" id="skillsList">
+          <script>
+            // Array of skills with image paths
+            const skills = [
+              { name: "HTML", img: "./html.png" },
+              { name: "CSS", img: "./css.png" },
+              { name: "JavaScript", img: "./js.png" },
+              { name: "React JS", img: "./react.png" },
+              { name: "Bootstrap", img: "./bt.png" },
+              { name: "PHP", img: "./phpp.png" },
+              { name: "Java", img: "./java.png" },
+              { name: "C#", img: "./Csharp.png" },
+              { name: ".NET MVC", img: "./dotnet.png" },
+              { name: "Python", img: "./py.png" },
+              { name: "MySQL", img: "./Mysql.png" },
+              { name: "MongoDB", img: "./mb.png" },
+              { name: "SQL Server", img: "./sqlserver.png" },
+              { name: "Docker", img: "./doc.png" },
+              { name: "Figma", img: "./figma.png" },
+              { name: "Git", img: "./Git.png" },
+              { name: "GitHub", img: "./ct.png" },
+
+
+
+            ];
+          
+            // Generate and insert skill items using map()
+            document.getElementById("skillsList").innerHTML = skills
+              .map(skill => `
+                <div class="website-item">
+                  <img src="${skill.img}" alt="${skill.name}" />
+                  <h2>${skill.name}</h2>
+                </div>
+              `)
+              .join("");
+          </script>
+        </div>
+      </div>
+    </section>
+  
+<section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form id="ContactForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="f62965b2-0d4c-454d-8473-967443c35bb3">
+
+        <div class="input-group">
+          <div class="input-box">
+            <input id="name" name="name" type="text" placeholder="Full Name" required/>
+            <input id="email" name="email" type="email" placeholder="Enter Your Email" />
+          </div>
+          <div class="input-box">
+            <input id="phone" name="phone" type="number" placeholder="Phone Number" />
+            <input id="title" name="title" type="text" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name="message"
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+</section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://wa.me/0761157706" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://www.facebook.com/share/17czhecUYv/?mibextid=wwXIfr" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/dilshan.wick_?igsh=MXdlbTlhYnU4d2Zh&utm_source=qr" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.tiktok.com/@dilshan_wick?_r=1&_t=ZS-92elqmdFaKn" target="_blank"><i class="bx bxl-tiktok"></i></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">About Me</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Skills</a>
+        </li>
+      </ul>
+      <p class="copyright">© <script>document.write(new Date().getFullYear());</script> Dilshan Wickramasinghe | All Right Reserved</p>
+  </body>
+</html>
