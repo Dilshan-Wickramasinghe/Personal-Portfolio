@@ -249,11 +249,11 @@ span {
   }
   61%,
   80% {
-    content: "UI/UX Designer ";
+    content: "AI/ML Developer";
   }
   81%,
   100% {
-    content: "AI/ML Developer";
+    content: "UI/UX Designer";
   }
 }
 @keyframes typing {
